@@ -1,4 +1,10 @@
 AdIPAG14001430
 ==============
-
-Da readme
+1. Registrieren ()
+2. GiHub for windows laden (https://windows.github.com/)
+3. GitHub Installieren
+4. In GitHub client einloggen
+5. Repository runterladen
+6. Code hinzufügen
+7. Änderungen commiten
+8. Repository syncen
