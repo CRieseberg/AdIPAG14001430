@@ -1,9 +1,9 @@
 // Aufgabe 2.1
 int Addieren(int n)
 {
-	a = 0;
+	int a = 0;
 	
-	for (i = 1; i <= n; i++)
+	for (int i = 1; i <= n; i++)
 	{
 		a += i;
 	}
@@ -14,15 +14,12 @@ int Addieren(int n)
 // Aufgabe 2.2
 int AddierenQuadratzahl(int number)
 {
-	result = 0;
+	int a = 0;
 	
-	for(i = 1; i <= number; i++)
+	for(int i = 1; i <= number; i++)
 	{
-		int b = i^2;
-		
-		a = a + i;
+		a = a + (i*i);
 	}
 	
 	return a;
 }
-s
