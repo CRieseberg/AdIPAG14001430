@@ -1,9 +1,9 @@
 ﻿// Aufgabe 3.1
-bool TestForNegativeNumber(int numberToTest)
+int TestForNegativeNumber(int numberToTest)
 {
 	if(n < 0)
 	{
-		return false;
+		return 0;
 	}
 }
 
@@ -11,17 +11,20 @@ bool TestForNegativeNumber(int numberToTest)
 
 #include <math.h>
 
-bool PrimeTest(int numberToTest)
+int PrimeTest(int numberToTest)
 {
-	int n = 2;
-
-	if (n > sqrt(numberToTest))
+	if (numberToTest == 1)
 	{
-		return true;
+		return 0;
 	}
-
-	if(numberToTest % n == 0)
+	
+	for(i = 2; i < numberToTest; i++)
 	{
-		return false;
+		if((numberToTest % i) == 0)
+		{
+			return 0;
+		}
 	}
+	
+	return 1;
 }
