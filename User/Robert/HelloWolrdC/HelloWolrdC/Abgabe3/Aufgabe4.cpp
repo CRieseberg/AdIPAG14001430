@@ -1,4 +1,4 @@
-#include "stdafx.h"
+
 #include "Aufgabe4.h"
 #include <math.h>
 

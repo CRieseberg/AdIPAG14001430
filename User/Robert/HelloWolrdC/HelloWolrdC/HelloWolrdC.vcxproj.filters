@@ -24,13 +24,13 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="111400Anov14\Aufgabe2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="041400Anov14\Abgabe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="111400Anov14\Aufgabe4.h">
+    <ClInclude Include="Abgabe3\Aufgabe2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Abgabe3\Aufgabe4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,16 +38,16 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HelloWorldC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="111400Anov14\Aufgabe2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="041400Anov14\Abgabe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="111400Anov14\Aufgabe4.cpp">
+    <ClCompile Include="HelloWorldC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Abgabe3\Aufgabe2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Abgabe3\Aufgabe4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
